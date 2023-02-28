@@ -8,30 +8,28 @@
  
 ## There is some faulty code in there that did make it to release
 <details>
-<summary>Can you figure out where it is? (Spoilers on click!)</summary> 
-```
-	/* LATHOS
+	<summary>Can you figure out where it is? (Spoilers on click!)</summary>   
+	
+	
+	/* LATHOS  
 	if(secondreal!=0 && secondim!=0)
 	*/
-    
-    // Swsto
+
+	/* Swsto */
 	if(secondreal!=0 || secondim!=0)
-```
-```
+	
 	/* LATHOS
 	scanf("%c",&keftes);
-    if(keftes!='N' && keftes!='Y' && keftes!='n' && keftes!='y'){
+	if(keftes!='N' && keftes!='Y' && keftes!='n' && keftes!='y'){
 		do{
 			scanf("%c",&keftes);
 		}while(keftes!='N' && keftes!='Y' && keftes!='n' && keftes!='y');
 	}
 	*/
-    
-    // Swsto
-    scanf("%c",&keftes);
+
+	/* Swsto */
+	scanf("%c",&keftes);
 	while(keftes!='N' && keftes!='Y' && keftes!='n' && keftes!='y'){
 		scanf("%c",&keftes);
-    }
-```
 </details>
  
