@@ -8,7 +8,7 @@
  
 ## There is some faulty code in there that did make it to release
 <details>
-<summary>Can you figure out where it is? (Spoilers on click!)</summary>
+<summary>Can you figure out where it is? (Spoilers on click!)</summary> 
 ```
 	/* LATHOS
 	if(secondreal!=0 && secondim!=0)
